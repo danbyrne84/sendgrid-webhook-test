@@ -1,19 +1,14 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-stretch-slim AS base
-WORKDIR /app
-EXPOSE 80
-
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch AS build
+FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
-COPY ["SendGrid.Webhook/SendGrid.Webhook.csproj", "SendGrid.Webhook/"]
-RUN dotnet restore "SendGrid.Webhook/SendGrid.Webhook.csproj"
+
 COPY . .
-WORKDIR "/src/SendGrid.Webhook"
-RUN dotnet build "SendGrid.Webhook.csproj" -c Release -o /app
+RUN dotnet restore
+RUN dotnet build -c Release --no-restore
 
 FROM build AS publish
-RUN dotnet publish "SendGrid.Webhook.csproj" -c Release -o /app
+RUN dotnet publish /src/SendGrid.Webhook/SendGrid.Webhook.csproj -c Release -o /app --no-restore
 
-FROM base AS final
-WORKDIR /app
+FROM microsoft/dotnet:2.2-aspnetcore-runtime
+WORKDIR /src
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "SendGrid.Webhook.dll"]
+ENTRYPOINT [ "dotnet", "SendGrid.Webhook.dll"]
