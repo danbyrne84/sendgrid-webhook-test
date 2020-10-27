@@ -1,0 +1,17 @@
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\obj\Debug\netcoreapp2.2\SendGrid.Webhook.csproj.CoreCompileInputs.cache
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\obj\Debug\netcoreapp2.2\SendGrid.Webhook.AssemblyInfoInputs.cache
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\obj\Debug\netcoreapp2.2\SendGrid.Webhook.AssemblyInfo.cs
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\bin\Debug\netcoreapp2.2\SendGrid.Webhook.deps.json
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\bin\Debug\netcoreapp2.2\SendGrid.Webhook.runtimeconfig.json
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\bin\Debug\netcoreapp2.2\SendGrid.Webhook.runtimeconfig.dev.json
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\bin\Debug\netcoreapp2.2\SendGrid.Webhook.dll
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\bin\Debug\netcoreapp2.2\SendGrid.Webhook.pdb
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\obj\Debug\netcoreapp2.2\SendGrid.Webhook.csprojAssemblyReference.cache
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\obj\Debug\netcoreapp2.2\SendGrid.Webhook.RazorAssemblyInfo.cache
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\obj\Debug\netcoreapp2.2\SendGrid.Webhook.RazorAssemblyInfo.cs
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\obj\Debug\netcoreapp2.2\SendGrid.Webhook.RazorTargetAssemblyInfo.cache
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\obj\Debug\netcoreapp2.2\SendGrid.Webhook.dll
+C:\Users\Dan\source\repos\SendGrid.Webhook\SendGrid.Webhook\obj\Debug\netcoreapp2.2\SendGrid.Webhook.pdb
